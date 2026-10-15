@@ -7,4 +7,4 @@ class GakushokuSample(AbstractGakushoku):
         return "オススメのポイントやなぜオススメできるかなど、簡単に書きます"
     
     def get_author(self):
-        return "西村壮真"
+        return "書いた人の名前を書きます"
