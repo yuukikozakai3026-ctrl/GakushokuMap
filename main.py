@@ -1,6 +1,11 @@
 from maps.GakushokuSample import GakushokuSample
+from maps.OkiOsusumeGakusyoku import okiOsusumeGakusyoku
 
-data = [GakushokuSample(), ]
+data = [
+    GakushokuSample(), 
+    okiOsusumeGakusyoku(),
+]
+
 for rank, d in enumerate(data, start=1):
     print(f"{rank}位: {d.get_menu()}")
     print("---------------------------------")
