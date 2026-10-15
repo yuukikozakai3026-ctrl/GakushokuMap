@@ -1,5 +1,6 @@
 from maps.GakushokuSample import GakushokuSample
 from maps.k25102_osusume import k25102_osusume
+
 from maps.NimuraOsusume import NimuraOsusume
 from maps.OkiOsusumeGakusyoku import GakushokuSample
 
